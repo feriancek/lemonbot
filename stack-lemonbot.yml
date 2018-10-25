@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:  
+  
+  bot:
+    image: feriancek/lemonbot
+    secrets:
+      - apiToken
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 30s
+        max_attempts: 10
+secrets:
+  apiToken:
+    external: true

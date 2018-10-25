@@ -1,0 +1,23 @@
+{
+  "name": "lemonbot",
+  "version": "1.0.0",
+  "description": "Garbage spewing bot for telegram",
+  "main": "bot.js",
+  "dependencies": {
+    "telebot": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/feriancek/lemonbot.git"
+  },
+  "author": "Simon Feriancek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/feriancek/lemonbot/issues"
+  },
+  "homepage": "https://gitlab.com/feriancek/lemonbot#README"
+}
