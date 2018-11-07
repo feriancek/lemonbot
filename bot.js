@@ -44,6 +44,7 @@ function initializeBot(secret) {
     bot.on(['/whme', '/warhammer'], (msg) => msg.reply.text('https://i.imgur.com/HgLeQ7r.jpg'));
     bot.on(['/whv'], (msg) => msg.reply.text('https://i.imgur.com/EW9UcD8.jpg'));
     bot.on(['/list', '/start', '/LIST'], (msg) => msg.reply.text('ROLL, CHANCE, SALT, AB, SUCKS, NATO, SOLUTION, KENSHIRO, WHME, WHV, AHHHH!'));
+    bot.on(['/wack'], (msg) => msg.reply.text('https://i.imgur.com/ciL01wx.jpg'));
 
     bot.start();
 }
