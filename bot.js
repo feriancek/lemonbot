@@ -41,10 +41,10 @@ function initializeBot(secret) {
     bot.on(['/solution'], (msg) => msg.reply.text('http://i.imgur.com/hXnCtIN.gif'));
     bot.on(['/kenshiro', '/KENSHIRO'], (msg) => msg.reply.text('https://i.imgur.com/DZEF9VX.png'));
     bot.on(['/AHHHH','/AHHHH!'], (msg) => msg.reply.text('https://www.youtube.com/watch?v=qEjGsegAwpI'));
-    bot.on(['/whme', '/warhammer'], (msg) => msg.reply.text('https://i.imgur.com/HgLeQ7r.jpg'));
-    bot.on(['/whv'], (msg) => msg.reply.text('https://i.imgur.com/EW9UcD8.jpg'));
+    bot.on(['/whme', '/warhammer'], (msg) => msg.reply.text('https://i.imgur.com/d27myQE.jpg'));
+    bot.on(['/whv'], (msg) => msg.reply.text('https://i.imgur.com/K23UKNb.jpg'));
     bot.on(['/wack', '/WACK'], (msg) => msg.reply.text('https://i.imgur.com/ciL01wx.jpg'));
-    bot.on(['/list', '/start', '/LIST'], (msg) => msg.reply.text('AB, AHHHH!, CHANCE, KENSHIRO, NATO, ROLL, SALT, SOLUTION, SUCKS, WACK, WHME, WHV'));
+    bot.on(['/list', '/start', '/LIST'], (msg) => msg.reply.text('AB, AHHHH, CHANCE, KENSHIRO, NATO, ROLL, SALT, SOLUTION, SUCKS, WACK, WHME, WHV'));
 
     bot.start();
 }
