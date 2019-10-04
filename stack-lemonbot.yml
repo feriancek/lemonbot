@@ -1,12 +1,13 @@
-version: '3.2'
+version: "3.7"
 
-services:  
-  
+services:
   bot:
-    image: feriancek/lemonbot
+    image: feriancek/lemonbot:latest
     secrets:
       - apiToken
     deploy:
+      labels: 
+        - "traefik.enable=false"
       replicas: 1
       restart_policy:
         condition: any
